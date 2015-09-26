@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>reveal.js, i3visio edition - The HTML Presentation Framework</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="author" content="Hakim El Hattab | Updated by Félix Brezo and Yaiza Rubio.">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/i3visio.css" id="theme">
+
+		<!-- Added fontawesome -->
+        <!-- Take a look to the cheatsheet en: https://fortawesome.github.io/Font-Awesome/cheatsheet/ 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">        
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,9 +47,12 @@
 			<div class="slides">
 				<section>
 					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h2>i3visio edition</h2>					
+					<h4>The HTML Presentation Framework</h4>
 					<p>
 						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+					    </br>
+						<small>Customized by <a href="http://i3visio.com">Yaiza Rubio and Félix Brezo</a></small>
 					</p>
 				</section>
 
@@ -53,6 +61,30 @@
 					<p>
 						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
 					</p>
+				</section>
+
+				<section>
+					<h2>Use font-awesome icons</h2>
+					<p>
+						In the reveal.js i3visio edition we have bundled font-awesome icons. You can use them here
+                        <a href="https://www.youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>, <a href="https://instagram.com/"><i class="fa fa-instagram fa-lg"></i></a>, <a href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a> and much more which can be found in <a href="https://fortawesome.github.io/Font-Awesome/cheatsheet/">this</a> cheatsheet.
+					</p>
+					
+					<p>
+					    You can use them by:
+				        <pre>
+				            <code><i class="fa fa-youtube fa-lg"></i>
+<i class="fa fa-instagram fa-lg"></i></code>
+				        </pre>
+				        Or adding a link to the icon by:
+				        <pre>
+				            <code><a href="https://twitter.com/i3visio">
+    <i class="fa fa-twitter fa-lg"></i>
+</a></code>
+				        </pre>				        
+				    </p>
+
+
 				</section>
 
 				<!-- Example of nested vertical slides -->
